@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+.container
+{
+   display: flex !important;
+    flex-wrap: wrap;
+   margin: 40px 0px 0px 160px !important;
+   height: 100%;
+   gap: 115px;
+   
+}
+.rental
+{
+    margin: 20px ;
+    width: 265px;
+    height:auto;
+    padding: 0px;
+    
+}
+
+img:hover
+{
+border: 3px solid rgba(82, 153, 211, 1);
+
+}
+.details
+{
+    margin-top: 16px;
+    font-size: 20px;
+    font-family: 'inter';
+}
+
+@media (max-width:940px) {
+ .container{
+    margin: 50px 0px 0px 0px ;
+
+   }
+}

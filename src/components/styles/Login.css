@@ -1,0 +1,84 @@
+.containerlogin
+{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.containerlogin .loginbox
+{
+display: flex;
+flex-direction: column;
+
+}
+.containerlogin .loginbox .login
+{
+    font-size: 32px;
+    margin-bottom: 50px;
+    
+   
+}
+
+
+.containerlogin .loginbox form
+{
+display: flex;
+flex-direction: column;    
+gap: 25px;
+font-size: 24px;
+
+}
+
+.containerlogin .loginbox form input
+{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    border: 3px solid rgba(82, 153, 211, 1);
+    font-size: 24px;
+
+}
+
+.containerlogin .loginbox form input:focus
+{
+  background-color: rgba(82, 153, 211, 1);
+color:white;
+font-size: 24px;
+border: none;
+}
+
+.containerlogin .loginbox form .lbtn .lgbtn
+{
+    
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        background-color:  rgba(82, 153, 211, 1);
+        
+        border: none;
+        color: white;
+        font-size: 24px;
+
+}
+
+.containerlogin .loginbox form .lbtn .lgbtn:hover
+{
+    background-color: white;
+    color: rgba(82, 153, 211, 1);
+    border: 3px solid rgba(82, 153, 211, 1);
+}
+
+.containerlogin .loginbox form .lbtn .lsu
+{
+    width: 400px;
+    height: auto;
+   font-size: 16px;
+   text-align: center;
+
+}
+
+.containerlogin .loginbox form label,input,button
+{
+display: block;
+
+}

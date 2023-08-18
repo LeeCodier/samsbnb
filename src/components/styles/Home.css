@@ -1,12 +1,12 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
+ 
 
 .container
 {
    display: flex !important;
     flex-wrap: wrap;
-   margin: 40px 0px 0px 160px !important;
+   margin: 40px 0px 0px 160px ;
    height: 100%;
    gap: 115px;
    
